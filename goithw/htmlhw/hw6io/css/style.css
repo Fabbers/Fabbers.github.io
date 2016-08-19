@@ -1,37 +1,20 @@
+@font-face {
+    font-family: 'Lucida Sans';
+    src: url("../fonts/lucida_sans_unicode_regular-webfont.woff2") format("woff2"), url("../fonts/lucida_sans_unicode_regular-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
     margin: 0;
     padding: 0;
 }
 
-.sob {
-    display: block;
-    max-width: 30px;
-    float:left;
-    margin-left: -5px;
-}
 
-.phone-icon {
-    border-radius: 12px;
-    height: 23px;
-    width: 23px;
-    text-align: center;  /* align the inline(-block) elements horizontally */
-    font: 0/0 a;  
-    clear: none
-    background: rgba(12,51,87,1);
-background: -moz-linear-gradient(top, rgba(12,51,87,1) 0%, rgba(240,47,23,1) 0%, rgba(46,122,196,1) 0%, rgba(31,103,134,1) 100%);
-background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(12,51,87,1)), color-stop(0%, rgba(240,47,23,1)), color-stop(0%, rgba(46,122,196,1)), color-stop(100%, rgba(31,103,134,1)));
-background: -webkit-linear-gradient(top, rgba(12,51,87,1) 0%, rgba(240,47,23,1) 0%, rgba(46,122,196,1) 0%, rgba(31,103,134,1) 100%);
-background: -o-linear-gradient(top, rgba(12,51,87,1) 0%, rgba(240,47,23,1) 0%, rgba(46,122,196,1) 0%, rgba(31,103,134,1) 100%);
-background: -ms-linear-gradient(top, rgba(12,51,87,1) 0%, rgba(240,47,23,1) 0%, rgba(46,122,196,1) 0%, rgba(31,103,134,1) 100%);
-background: linear-gradient(to bottom, rgba(12,51,87,1) 0%, rgba(240,47,23,1) 0%, rgba(46,122,196,1) 0%, rgba(31,103,134,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0c3357', endColorstr='#1f6786', GradientType=0 );
-    max-width: 30px;
-}
-    
 body {
     width: 100%;
     max-height: 1310px;
-    font-family: "Arial";
+    font-family: "Lucida Sans";
 }
 
 .wrapper {
@@ -42,26 +25,26 @@ body {
     font-family: "Arial";
 }
 .topper {
-    background-color: aquamarine;
+    
     width: 910px;
     height: 52px;
     margin: 0 auto;
     display: flex;
 /*    overflow: auto;*/
-}
-.reg-box {
-    width: 400px;
-    height: 52px;
-    background-color: bisque;
-    padding-top: 13px;
+    padding-left: 2px;
     
-/*    display:block;*/
 }
+
+.tft {
+    padding-left: 4px;
+}
+
+
 
 .navi {
 
     
-    width: 200px;
+    width: 80px;
     height: 52px;
     background-color: yellowgreen;
     
@@ -75,16 +58,95 @@ body {
 }
 
 .telephone {
-     width: 300px;
+     width: 320px;
   height: 50px;
-  background-color: red;
+  
   padding-top: 10px;
   display: -webkit-flex;
     display: flex;
     font-family: "Arial";
     font-size: 18px;
 }
+.telephone div:first-child {
+    padding-left: 28px;
+    background-image: url(../images/phone.png);
+    background-repeat: no-repeat;
+    background-position: 3px 11px;
+}
+.reg-box {
+    width: 530px;
+    height: 52px;
+    background-color: bisque;
+    padding-top: 19px;
+    display: flex;
+    
+/*    display:block;*/
+}
+.reg-box-panel {
+    background-image: url('../images/login-shape.png');
+    width: 500px;
+    height: 32px;
+    border-radius: 4px;
+    margin-left: 8px;
+    position: relative;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    padding-left: 0;
+    margin-bottom: 0;
+        
+}
 
+
+
+.reg-box-panel>form>input {
+   
+    height: 16px;
+    width: 113px;
+    float:left;
+}
+
+.dude-icon {
+    float: left;
+    margin-top: 4px;
+    margin-left: 2px;
+    margin-right: 2px
+}
+
+.reg-box-panel>a {
+    
+    color: #bfbfbf;
+    font-family: 'Lucida Sans', "Arial";
+    font-size: 12px;
+    float: right;
+    
+}
+
+.reg-box-panel>ul>li>a {
+     color: white;
+    font-family: 'Lucida Sans',"Arial";
+    font-size: 12px; 
+    display: inline;
+
+}
+
+.reg-box-panel>ul {
+    display: inline;
+    list-style-type: none;
+}
+.reg-box-panel>ul>li {
+    display: inline;
+    list-style-type: none;
+    color: white;
+    font-family: 'Lucida Sans',"Arial";
+    font-size: 10.91px; 
+   
+    
+}
+div>div>form>input:first-child {
+    margin-right: 2px
+    
+}
 .bigpic {
     width: 909px;
     height: 237px;
@@ -208,56 +270,7 @@ section {
     color: #5e696d;
 }
 
-.reg-box-panel {
-    background-image: url('../images/login-shape.png');
-    width: 500px;
-    height: 32px;
-    border-radius: 4px;
-    margin-left: 10px;
-    position: relative
-        
-}
 
-
-
-.reg-box-panel>form>input {
-    display:inline;
-    height: 16px;
-    width: 113px;
-    float:left;
-}
-
-.dude-icon {
-    float: left;
-    margin-top: 4px;
-    margin-left: 2px;
-}
-
-.reg-box-panel>a {
-    
-    color: #bfbfbf;
-    font-family: 'Lucida Sans Unicode', "Arial";
-    font-size: 12px;
-    float: right;
-    
-}
-
-.reg-box-panel>ul>li>a {
-     color: white;
-    font-family: 'Lucida Sans Unicode',"Arial";
-    font-size: 12px; 
-    display: inline;
-
-}
-
-.reg-box-panel>ul {
-    display: inline;
-    list-style-type: none;
-}
-.reg-box-panel>ul>li {
-    display: inline;
-    list-style-type: none;
-}
 nav>ul>li {
     float: left;
 }

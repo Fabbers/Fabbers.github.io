@@ -1,0 +1,299 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    max-height: 1066px;
+    font-family: "Tahoma";
+}
+
+.wrapper {
+    width: 1215px;
+    max-height: 1066px;
+    margin: 0 auto;
+}
+
+.primary_nav_wrap {
+	margin-top:0;
+    height: 38px;
+    background-image: url('../images/menu-bgd.png');
+    background-repeat: repeat-x;
+}
+
+.primary_nav_wrap ul {
+	list-style:none;
+	position:relative;
+	float:right;
+	margin:0;
+	padding:0;
+    display:block;
+	text-decoration:none;
+	font-weight:700;
+	font-size:14px;
+	line-height:38px;
+	padding:0 8px;
+	font-family:"Tahoma",sans-serif
+}
+
+.primary_nav_wrap ul a {
+	display:block;
+	text-decoration:none;
+	font-weight:700;
+	font-size:14px;
+	line-height:38px;
+	padding:0 15px;
+	font-family:"Tahoma",sans-serif;
+}
+
+.left-menu li a {
+	display:block;
+	color:#60b5ed;
+    text-decoration:none;
+	font-weight:700;
+	font-size:14px;
+	line-height:38px;
+	padding:0 15px;
+	font-family:"Tahoma",sans-serif;
+}
+
+.left menu li {
+    color: #1f6ca9;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.left-menu li a:hover {
+	background:#4eabda;
+    color: white;
+    text-decoration: none;
+    
+}
+
+.right-menu li a {
+    display:block;
+	color: white;
+	text-decoration:none;
+	font-weight:700;
+	font-size:14px;
+	line-height:38px;
+	padding:0 15px;
+	font-family:"Tahoma",sans-serif;
+}
+
+.primary_nav_wrap ul li {
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0;
+    color: white;
+}
+
+.right-menu li a:hover {
+	background:background: rgba(241,111,92,1);
+background: -moz-linear-gradient(top, rgba(241,111,92,1) 0%, rgba(81,176,220,1) 0%, rgba(46,122,196,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(241,111,92,1)), color-stop(0%, rgba(81,176,220,1)), color-stop(100%, rgba(46,122,196,1)));
+background: -webkit-linear-gradient(top, rgba(241,111,92,1) 0%, rgba(81,176,220,1) 0%, rgba(46,122,196,1) 100%);
+background: -o-linear-gradient(top, rgba(241,111,92,1) 0%, rgba(81,176,220,1) 0%, rgba(46,122,196,1) 100%);
+background: -ms-linear-gradient(top, rgba(241,111,92,1) 0%, rgba(81,176,220,1) 0%, rgba(46,122,196,1) 100%);
+background: linear-gradient(to bottom, rgba(241,111,92,1) 0%, rgba(81,176,220,1) 0%, rgba(46,122,196,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f16f5c', endColorstr='#2e7ac4', GradientType=0 );
+    color: white;
+    border-radius: 2px;
+}
+
+.primary_nav_wrap ul li:hover > ul {
+	display:block
+}
+
+.flag {
+    padding-top: 8px;
+}
+
+
+.main {
+    background-image: url('../images/Background-copy.png');
+    background-size: contain;
+    height: 1028px;
+    z-index: -1;
+    font-family: "Tahoma";
+    background-repeat: no-repeat;
+    position: relative;
+    text-align: center;
+    padding-top: 212px;
+}
+
+.loginbox {
+    background-image: url('../images/Layer-2-copy.png');
+    position:absolute;
+    left: 50%;
+    margin-left: -280px;
+    height: 613px;
+    width: 560px;
+}
+
+h2 {
+    color: white;
+    font-size: 24px;
+    margin: 0 auto;
+    display:inline-block;
+    font-weight: 500;
+}
+
+.terms {
+    text-align: center;
+    color: white;
+    font-size: 11px;
+    margin-top: 15px;
+}
+
+.crbutton {
+    background-color: background: rgba(46,122,196,1);
+background: -moz-linear-gradient(top, rgba(46,122,196,1) 0%, rgba(81,176,220,1) 0%, rgba(46,122,196,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(46,122,196,1)), color-stop(0%, rgba(81,176,220,1)), color-stop(100%, rgba(46,122,196,1)));
+background: -webkit-linear-gradient(top, rgba(46,122,196,1) 0%, rgba(81,176,220,1) 0%, rgba(46,122,196,1) 100%);
+background: -o-linear-gradient(top, rgba(46,122,196,1) 0%, rgba(81,176,220,1) 0%, rgba(46,122,196,1) 100%);
+background: -ms-linear-gradient(top, rgba(46,122,196,1) 0%, rgba(81,176,220,1) 0%, rgba(46,122,196,1) 100%);
+background: linear-gradient(to bottom, rgba(46,122,196,1) 0%, rgba(81,176,220,1) 0%, rgba(46,122,196,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2e7ac4', endColorstr='#2e7ac4', GradientType=0 );
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 16px;
+    width: 149px;
+    height: 35px;
+    border: 2px solid #67c6e6;
+}
+
+.ou-line {
+    color: #999999;
+    margin-top: 30px;
+}
+
+.fb .button {
+    background-image: url('../images/fb-button.png');
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    height: 35px;
+    width: 276px;
+}
+
+.updates {
+    color: #bfbfbf;
+    font-size: 14px;
+}
+
+.databox {
+    margin-bottom: 18px;
+    width: 276px;
+    height: 35px;
+    background-color: #0f0f0f;
+    color: #bfbfbf;
+    border: none;
+    border-bottom: 1px solid #494948;
+    padding-left: 18px;
+    font-family: "Tahoma";
+    font-size: 14px;
+}
+
+feildset input {
+    float:left;
+    padding-left: 0;
+}
+
+.databox:hover {
+    background-color: #1b5288;
+    border-bottom: 1px solid #689bcc;
+    -webkit-box-shadow: 0px 0px 10px 3px rgba(104,155,204,1);
+    -moz-box-shadow: 0px 0px 10px 3px rgba(104,155,204,1);
+    box-shadow: 0px 0px 10px 3px rgba(104,155,204,1);
+}
+
+.ou-line {
+    display: block;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap; 
+}
+
+.ou-line > span {
+    position: relative;
+    display: inline-block;
+}
+
+.ou-line > span:before,
+.ou-line > span:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 122px;
+    height: 2px;
+    background: #666;
+}
+
+.ou-line > span:before {
+    right: 100%;
+    margin-right: 10px;
+}
+
+.ou-line > span:after {
+    left: 100%;
+    margin-left: 10px;
+}
+
+.verticle{
+   width: 0px;
+   height: 28px;
+        color: #60b5ed;
+}
+
+.vertical-line{
+  width: 1px; 
+  background-color: #60b5ed;
+  height: 30px; 
+    float: right;
+    padding-top: 7px;
+}
+
+.entrar {
+    padding-left: 5px;
+}
+
+.right-menu li span {
+    text-decoration: underline;
+}
+
+.fb {
+    margin-top: 55px
+}
+
+fieldset {
+    margin-top: 30px;
+    border: none;
+}
+
+.create {
+    margin-top: 20px;
+}
+
+.right-menu li {
+    padding:0 15px;
+}
+
+.hi {
+    padding-left: 25px;
+    padding-right: 0;
+}
+
+.action {
+    margin-top: 14px;
+}
