@@ -32,6 +32,21 @@ body {
     display: flex;
 /*    overflow: auto;*/
     padding-left: 2px;
+<<<<<<< HEAD
+=======
+    
+}
+
+.tft {
+    padding-left: 4px;
+}
+
+.reg-box {
+    width: 450px;
+    height: 52px;
+    background-color: bisque;
+    padding-top: 13px;
+>>>>>>> 5f8da7649c53bf2f2390b69173a55eb9c20debe0
     
 }
 
@@ -44,7 +59,11 @@ body {
 .navi {
 
     
+<<<<<<< HEAD
     width: 80px;
+=======
+    width: 170px;
+>>>>>>> 5f8da7649c53bf2f2390b69173a55eb9c20debe0
     height: 52px;
     background-color: yellowgreen;
     
@@ -73,6 +92,7 @@ body {
     background-repeat: no-repeat;
     background-position: 3px 11px;
 }
+<<<<<<< HEAD
 .reg-box {
     width: 530px;
     height: 52px;
@@ -147,6 +167,8 @@ div>div>form>input:first-child {
     margin-right: 2px
     
 }
+=======
+>>>>>>> 5f8da7649c53bf2f2390b69173a55eb9c20debe0
 .bigpic {
     width: 909px;
     height: 237px;
