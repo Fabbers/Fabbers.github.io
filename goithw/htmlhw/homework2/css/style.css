@@ -56,7 +56,6 @@ a {
 }
 
 section>div {
-    float: left;
     display: block;
     margin-top: 25px;
 }
@@ -74,7 +73,7 @@ section {
 ul {
     margin-bottom: 25px;
     margin-left: 30px;
-    list-style-position: inside;
+   
 }
 
 section>div>p {
