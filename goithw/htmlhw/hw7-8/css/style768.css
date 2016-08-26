@@ -1,44 +1,23 @@
 @media screen and (min-width: 768px) {
+    .header {
+   height: 798px;
+    }
+    
     .header_content {
     width: 768px;
     padding-top: 68px;
  }
-/* .header_nav-link {*/
-/*    display: block;*/
-/*    font-family: "League Gothic";*/
-/*    font-size: 24px; */
-/*    color: white;*/
-/*    text-align: center;*/
-/*    padding: 1px 0px;*/
-/*    text-decoration: none;*/
-/*    line-height: 28px;*/
-/*    margin-left: 52px;*/
-/*}*/
-/*.header_nav-link:hover, .header_nav-link:focus {*/
-/*      border-bottom: 2px solid #edbfff;*/
-      
-/*}*/
-/*.header_nav-item {*/
+ 
+ .header_nav-link {
+    display: block;
     
-/*    display: block;*/
-/*    height: 42px;*/
-/*    background-color: rgba(62, 50, 70, .9);*/
-/*    border-radius: 5px;*/
-/*    margin-bottom: 10px;*/
-/*}*/
+    text-align: center;
+    padding: 1px 0px;
+    
+    
+}
 
-/*.header_nav {*/
-/*    margin: 0;*/
-/*    padding: 0;*/
-/*    display: flex;*/
-/*    flex-wrap: wrap;*/
-/*    justify-content: center;*/
-/*    list-style: none;*/
-/*    margin-right: -2px;*/
-/*    margin-top: 0px;*/
-/*    text-shadow: 2px 2px 1px rgba(150, 150, 150, 0.66);*/
-    
-    
+
 }
 
     

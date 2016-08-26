@@ -1,5 +1,10 @@
 @media screen and (min-width: 320px) {
-    body {
-        background-color: lightgreen;
+    .header {
+   height: 516px;
     }
+    
+     .header_content {
+    width: 320px;
+    padding-top: 68px;
+ }
 }
