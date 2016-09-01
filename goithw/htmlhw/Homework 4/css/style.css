@@ -15,7 +15,8 @@
 body {
     background-image: url('../images/background.png');
     background-repeat: repeat-x;
-    font-family: Tahoma;    
+    font-family: Tahoma; 
+    margin-top: 0px
 }
 
 .wrapper {
@@ -36,7 +37,7 @@ body {
     color: #5fa5bb;
 }
 
-.contacts:first-child {
+.contacts span:first-child {
     padding-bottom: 5px;
     font-weight: bold;
 }
@@ -117,6 +118,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#373737', end
     z-index: 2;
     width: 100%;
     text-align: center;
+    margin: 0 auto;
 }                
 
 .menu {
@@ -124,6 +126,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#373737', end
     margin: 0;
     padding: 0;
     overflow: hidden;
+position:absolute;
+left:50%;top:0;
+margin-left:-486px; /* negative margin equal to half the width */
+width:1000px;
     
 }
 
@@ -147,9 +153,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#373737', end
     line-height: 29px;
 }
 
+/*
 .menu li.dropdown {
     display: inline-block;
 }
+*/
 
 .dropdown-content {
     display: none;
