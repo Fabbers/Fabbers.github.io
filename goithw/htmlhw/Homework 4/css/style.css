@@ -15,6 +15,7 @@
 body {
     background-image: url('../images/background.png');
     background-repeat: repeat-x;
+    background-position: 0 -38px;
     font-family: Tahoma; 
     margin-top: 0px
 }
@@ -22,7 +23,7 @@ body {
 .wrapper {
     width: 1000px;
     padding-top: 46px;
-    margin: 0 auto;
+    margin: -38px auto;
     background: #fff;
     -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, .6);
     box-shadow: 0 0 15px rgba(0, 0, 0, .6);
@@ -103,83 +104,70 @@ body {
     left: 0;    
 }
 
-.nav {
-    position: relative;
-    height: 30px;
-    line-height: 30px;
-    border-top: 1px solid #cacbcb;
-    border-bottom: 1px solid #000;
+/*black navigation*/
+
+
+#nav_wrapper {
+    width: 1000px;
+    margin: 0 auto;
+    text-align: left;
     background: rgba(55,55,55,1);
 background: -webkit-linear-gradient(rgba(55,55,55,1) 0%, rgba(48,48,48,1) 100%);
 background: -o-linear-gradient(rgba(55,55,55,1) 0%, rgba(48,48,48,1) 100%);
 background: linear-gradient(rgba(55,55,55,1) 0%, rgba(48,48,48,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#373737', endColorstr='#303030', GradientType=0 );
     box-shadow: 0 3px 5px rgba(0, 0, 0, .4);
-    z-index: 2;
-    width: 100%;
-    text-align: center;
-    margin: 0 auto;
-}                
-
-.menu {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-position:absolute;
-left:50%;top:0;
-margin-left:-486px; /* negative margin equal to half the width */
-width:1000px;
-    
-}
-
-.menu li {
-    float: left;
-    padding: 0 25px;
-}
-
-.menu li a, .dropbtn {
-    display: block;
+    font-family: "Tahoma";
+    font-size: 14px;
     color: white;
-    text-align: left;
-    padding-left: 4px;
+    line-height: 30px;
     
-/*    padding: 14px 16px;*/
-    text-decoration: none;
 }
-
-.menu li a:hover, .dropdown:hover .dropbtn {
-    background-color: #303030;
-    line-height: 29px;
+#nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    min-width: 200px;
+    padding-left: 48px;
+    
 }
-
-/*
-.menu li.dropdown {
+#nav ul li {
     display: inline-block;
 }
-*/
-
-.dropdown-content {
+#nav ul li:hover {
+    background-color: #333;
+}
+#nav ul li a, visited {
+    color: white;
+    display: block;
+    padding: 4px 26px;
+    text-decoration: none;
+}
+#nav ul li:hover ul {
+    display: block;
+}
+#nav ul ul {
     display: none;
     position: absolute;
     background-color: #303030;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    min-width: 50px;
+    border-top: 0;
+    margin-left: 20px;
 }
-
-.dropdown-content a {
+#nav ul ul li {
+    display: block;
+    margin-left: -48px;
+}
+#nav ul ul li a:hover {
     color: white;
-/*    padding: 12px 16px;*/
-    text-decoration: none;
-    display: block;
-    text-align: left;
-    height: 30px;
-    line-height: 30px;
 }
 
-.dropdown:hover .dropdown-content {
-    display: block;
+#nav ul ul li a {
+    color: white;
+    padding: 4px 36px 4px 5px;
 }
+
 
 .first-div {
   width:210px;
@@ -237,4 +225,52 @@ footer {
 
 .countries li a:hover{
     text-decoration: underline;
+}
+
+
+.one-true {
+    overflow: hidden;
+}
+
+#one-true .right-div{
+    overflow: hidden;
+}
+
+#one-true .col{
+    float: left;
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
+}
+
+#one-true .left-div{
+    margin-left: 20%; 
+    background: #fff;
+    width: 60%;
+    overflow: hidden;
+}
+
+#one-true .mid-div{
+   margin-left: 0%; 
+    background: #edeef0;
+    width: 20%;
+    overflow: hidden;
+    color: #424c43;
+    font-family: "Tahoma";
+    font-size: 14px;
+    text-align: center;
+}
+
+#one-true .right-div{
+    float: right;
+    background: #edeef0;
+    width: 20%;
+    overflow: hidden;
+    color: #424c43;
+    font-family: "Tahoma";
+    font-size: 14px;
+    text-align: center;
+}
+
+.col>p {
+    line-height: 24px;
 }
