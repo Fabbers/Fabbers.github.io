@@ -5,7 +5,7 @@
 
 body{
     background-color: #f9f9f9;
-    font-family: "OpenSans", "Arial";
+    font-family: "Arial";
 }
 
 .wrapper{
@@ -50,7 +50,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5e5e5e', end
     text-decoration: none;
     padding: 0 40px;
     font-size: 14.67px;
-    font-family: "Open Sans", "Arial";
+    font-family: "Arial";
     text-shadow: 1px 1px 2px #000;
 }
 
@@ -85,7 +85,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4a4a4a', end
     border: 1px solid #c8c8c8;
     border-bottom: 0;
     width: 238px;
-    
 }
 
 .left-menu a{
@@ -94,7 +93,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4a4a4a', end
     padding-left: 20px;
     text-decoration: none;
     display: block;
-    font-family: "Myriad Pro";
     font-size: 13.33px;
 }
 
@@ -145,7 +143,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4a4a4a', end
     list-style: none;
     line-height: 40px;
     font-size: 13.33px;
-    font-family: "Open Sans", "Arial";
+    font-family: "Arial";
 }
 
 .footer-menu a{
@@ -154,7 +152,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4a4a4a', end
     text-decoration: none;
     padding: 0 50px;
     font-size: 13.33px;
-    font-family: "Open Sans", "Arial";
+    font-family: "Arial";
 }
 
 .footer-menu a:hover{
