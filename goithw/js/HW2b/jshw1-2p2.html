@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Untitled Document</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+</head>
+<body>
+    <script>
+        var nameBase = []
+        var yourName
+        var loopCounter
+        
+        for (loopCounter = 0; loopCounter<=5; loopCounter++)
+        {nameBase[loopCounter] = prompt("enter one of your five favorite names", "")}
+        
+        yourName = prompt("enter your name", "")
+        
+        if(yourName == nameBase[0] || yourName == nameBase[1] || yourName == nameBase[2] || yourName == nameBase[3] || yourName == nameBase[4])
+           {document.write("you are cool, your own name is one of your favorites");
+                } else 
+                {document.write("Slap your Mama, you don't like your own name!");
+                }
+        
+        
+    </script>
+
+</body>
+</html>
