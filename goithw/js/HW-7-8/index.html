@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HW 7-8a</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+<body>
+    
+        <ul class="tab">
+            <li><a href="#tab1">Tab 1</a></li>
+            <li><a href="#tab2">Tab 2</a></li>
+            <li><a href="#tab3">Tab 3</a></li>
+        </ul>
+        <div id="tab1" class="tabcontent active">
+            Tab 1 is cool
+        </div>
+        <div id="tab2" class="tabcontent">
+            Tab 2 is way cool
+        </div>
+        <div id="tab3" class="tabcontent">
+            Tab 3 is unfuckingbelievably cool
+        </div>
+    
+      
+     
+<script>
+    
+   $(document).ready(function(){
+       
+$("a").on("click", function() 
+          
+          { 
+    
+    var selector = $(this).attr("href");
+    $(".tabcontent").removeClass("active")
+    $(selector).addClass("active")
+          
+          }); 
+}); 
+       
+</script>
+
+</body>
+</html>

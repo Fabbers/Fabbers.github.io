@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HW7-8b</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <style>
+        .tltp {
+          display: inline-block;
+    }
+
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <form>
+           <fieldset>
+              <div class="input-container" tooltip = "type your name, moron!">
+                 <label for="firstname">Firstname</label>
+                 <input type="text" id="firstname" name="firstname">
+                 <div class="tltp"></div>
+              </div>
+              <div class="input-container" tooltip="your lastname, prick!">
+                <label for="lastname">Lastname</label>
+                <input type="text">
+                <div class="tltp"></div>
+              </div>
+              <div class="input-container" tooltip="What lifeform are you, cocksucker!">
+                 <label for="lifeform">Lifeform</label>
+                 <input type="text" id="species" name="lifeform">
+                 <div class="tltp"></div>
+               </div>
+               <button>If Chimp press here!</button>
+            </fieldset>
+        </form>
+
+    </div>
+
+
+
+    <script>
+
+
+
+
+
+
+        $(document).ready(function(){
+
+          $(".input-container").each(function() {
+            var toolTip = $(this).attr("tooltip");
+            $(this).children(".tltp").html(toolTip);
+          });
+
+          $(".tltp").hide();
+
+
+          function showTip(){
+               $(this).children(".tltp").show();
+         }
+          function hideTip(){
+              $(this).children(".tltp").hide();
+          }
+
+        $(".input-container").hover(showTip, hideTip);
+
+
+       $("button").on("click", function(e){
+        e.preventDefault();
+         $(".tltp").show();
+      })
+
+      });
+
+
+
+
+
+
+
+    </script>
+    <script>
+        $(document).ready(function(){
+            $("button").click(function(){
+               $("")
+            });
+        });
+
+    </script>
+</body>
+</html>
